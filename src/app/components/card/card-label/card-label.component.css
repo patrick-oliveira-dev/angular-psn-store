@@ -1,0 +1,19 @@
+.container {
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    background-color: #0D0D0D;
+    height: 40px;
+    padding: 0px 50px;
+    opacity: 0.8;
+}
+
+.content > p {
+    color: white;
+}
