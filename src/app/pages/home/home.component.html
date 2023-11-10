@@ -1,3 +1,9 @@
 <div class="container">
-	<app-card></app-card>
+	<app-card
+	*ngFor="let game of getGames()"
+	 [gameCover]="game.photo"
+	 [gameLabel]="game.gameLabel"
+	 [gameInfo]="game.gameInfo" [gamePlatforms]="game.gamePlatforms" [gamePrice]="game.gamePrice"
+	>
+	</app-card>
 </div>

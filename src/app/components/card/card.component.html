@@ -1,4 +1,7 @@
 <a href="https://github.com/patrick-oliveira-dev" class="container">
-    <img class="card_img" src="https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/60eca3ac155247e21850c7d075d01ebf0f3f5dbf19ccd2a1.jpg" alt="">
-    <app-card-label></app-card-label>
+    <img class="card_img" [src]=[gameCover] alt="">
+    <app-card-label gameLabel="{{gameLabel}}"></app-card-label>
+		<app-card-info gameInfo="{{gameInfo}}" gamePlatforms="{{gamePlatforms}}" gamePrice="{{gamePrice}}">
+
+		</app-card-info>
 </a>

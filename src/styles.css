@@ -13,7 +13,7 @@ body {
 	background: rgb(22,35,150);
 	background: linear-gradient(0deg, rgba(22,35,150,1) 0%, rgba(1,1,18,1) 100%);
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 100%;
 }
 
 a {

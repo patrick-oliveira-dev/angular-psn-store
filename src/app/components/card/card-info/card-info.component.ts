@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-info',
@@ -6,6 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-info.component.css']
 })
 export class CardInfoComponent implements OnInit {
+
+
+	@Input()
+	gameInfo:string = ""
+
+	@Input()
+	gamePlatforms:string = ""
+
+	@Input()
+	gamePrice:string = ""
 
   constructor() { }
 

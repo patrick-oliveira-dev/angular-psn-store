@@ -4,7 +4,12 @@
 	padding-top: 50px;
 	display: flex;
 	justify-content: space-around;
-	align-items: baseline;
+	align-items: center;
 	flex-wrap: wrap;
-	border: 1px solid white;
+	grid-column: 3;
+}
+
+.container > * {
+  flex-basis: calc(30% - 20px); /* 30% menos a margem de 20px entre os itens */
+  margin: 10px; /* Adiciona uma margem entre os itens */
 }
